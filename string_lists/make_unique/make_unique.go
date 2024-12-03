@@ -3,7 +3,7 @@ package make_unique
 // Erwartet eine Liste von Strings.
 // Hängt Zahlen an alle mehrfach vorkommenden Strings an, um sie eindeutig zu machen.
 func MakeUnique(strings []string) {
-	// TODO
+
 }
 
 // REMARKS

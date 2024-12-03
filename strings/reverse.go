@@ -2,8 +2,11 @@ package strings
 
 // Erwartet einen String s und liefert s rückwärts zurück.
 func Reverse(s string) string {
-	// TODO
-	return ""
+	ergebnis := ""
+	for i := len(s) - 1; i >= 0; i-- {
+		ergebnis += string(s[i])
+	}
+	return ergebnis
 }
 
 // Erwartet zwei Strings s1 und s2 und prüft, ob der eine der andere umgedreht ist.

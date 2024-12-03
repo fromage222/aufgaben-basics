@@ -11,6 +11,5 @@ func CountDivisors(n int) int {
 			teiler++
 		}
 	}
-
 	return teiler
 }
